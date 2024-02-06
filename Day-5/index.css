@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing:border-box;
+}
+body{
+    background-color:#222;
+}
+.card{
+    width:90%;
+    max-width:470px;
+    background:linear-gradient(135deg,#00feba,#5b548a);
+    color:#fff;
+    margin:100px auto 0;
+    border-radius:20px;
+    padding:40px 35px;
+    text-align:center;
+}
+.search
+{
+    width:100%;
+    display:flex;
+    align-items:center;
+}
+.search input{
+    border:0;
+    outline:0;
+    background:#ebfffc;
+    color:#555;
+    padding:10px 25px;
+    height:60px;
+    border-radius:30px;
+    /* width=100px then it takes for both input?:text and search one  */
+    flex:1;
+    margin-right:16px;
+    font-size:18px;
+    /*flex:1  //takes available spaces along the major axis */
+}
+#searchbtn{
+    height: 55px;
+    font-size: 26px;
+    text-align: center;
+    padding: 4px 11px;
+    border-radius: 230px;
+}
+.weather{
+    margin-top:10px;
+    display:none;
+}
+#weather-icon{
+    width:125px;
+    height:100px;
+}
+.details{
+    margin-top:30px;
+    display:flex;
+    justify-content: space-around;
+}
+.temp
+{
+    font-size:45px;
+    font-weight:400;
+}
+.col
+{
+    display:flex;
+    align-items:center;
+    text-align:left;
+}
+.col img{
+    width:40px;
+    margin-right:10px;
+}
+.wind,.humidity{
+    font-size:28px;
+    margin-top:-6px;
+}
+.error{
+    margin:10px 0px 0px 10px;
+    text-align:left;
+    display:none;
+}
+
